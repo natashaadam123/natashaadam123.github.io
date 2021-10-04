@@ -687,30 +687,30 @@ img {
   animation: fadeInTop 0.5s ease;
 }
 
-.about-section .skills {
+.about-section .skills .economics {
   padding: 0 0 40px;
 }
 
-.about-section .skills .skill-item {
+.about-section .skills .skill-item .economics {
   flex: 0 0 50%;
   max-width: 50%;
   padding: 0 15px;
 }
 
-.about-section .skills .skill-item p {
+.about-section .skills .skill-item .economics p {
   font-size: 16px;
   color: var(--text-black-600);
   text-transform: capitalize;
   margin: 0 0 10px;
 }
 
-.about-section .skills .skill-item .progress {
+.about-section .skills .skill-item .economics .progress {
   height: 20px;
   border-radius: 10px;
   position: relative;
 }
 
-.about-section .skills .skill-item .progress-bar {
+.about-section .skills .skill-item .economics .progress-bar {
   background-color: var(--text-black-600);
   height: 6px;
   left: 7px;
@@ -719,7 +719,7 @@ img {
   border-radius: 10px;
 }
 
-.about-section .skills .skill-item .progress-bar span {
+.about-section .skills .skill-item .economics .progress-bar span {
   position: absolute;
   right: 0;
   top: 0;
@@ -730,7 +730,9 @@ img {
 }
 
 .about-section .education,
-.about-section .experience {
+.about-section .experience,
+.about-section .property,
+.about-section .technology {
   padding-bottom: 80px;
 }
 
